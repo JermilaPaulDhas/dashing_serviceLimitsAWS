@@ -1,0 +1,33 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #A0BC3B;
+
+// ----------------------------------------------------------------------------
+// Widget-clock styles
+// ----------------------------------------------------------------------------
+.widget-trusted-advisor {
+
+  background-color: $background-color;
+
+  .check {
+    float: left;
+    padding: 3px 0px;
+    font-size: 12px;
+    width:100%;
+    background-color: #B72126
+  }
+
+  .check span {
+    padding: 0px 4px;
+  }
+
+  .checkRegion {
+    float: left
+  }
+
+  .checkserviceLimitName {
+    float: right
+  }
+
+}
